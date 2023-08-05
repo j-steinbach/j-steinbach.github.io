@@ -9,32 +9,22 @@ layout: default
 
   {{ content }}
 
-  {%- for writing in site.writings -%}
-  <h2>
-    <a href="{{ writing.url }}">
-      {{ writing.title }}
-    </a>
-  </h2>
-  <p>{{ writing.content | markdownify }}</p>
-  {%- endfor -%}
-
-
-
-  {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  {%- if site.writings.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "writings" }}</h2>
   <ul class="post-list">
-    {%- for post in site.posts -%}
+    {%- for writing in site.writings -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <span class="post-meta">{{ writing.date | date: date_format }}</span>
       <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
+        <a class="post-link" href="{{ writing.url | relative_url }}">
+          {{ writing.title | escape }}
         </a>
       </h3>
       {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
+      {{ writing.excerpt }}
       {%- endif -%}
+      <p><i>{{ writing.content | number_of_words }} words.</i></p>
     </li>
     {%- endfor -%}
   </ul>
