@@ -24,12 +24,25 @@ description: >- # this means to ignore newlines until "baseurl:"
   Personal blog filled with words, thoughts and notes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  jekyll
 
+
+
+# Not using posts :)
 collections:
   writings:
     output: true
-    permalink: /:title
+    permalink: /:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "writings" # name of the collection
+    values:
+      layout: "page"
+
+# Is there a way to limit this?
+show_excerpts: true
 
 # Build settings
 theme: minima
