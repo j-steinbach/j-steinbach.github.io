@@ -1,5 +1,9 @@
 ---
-title: You are out
+id: "you-are-out"
+aliases: []
+tags: []
+date: "2023-08-30T20:59:53 CEST"
+title: "You are out"
 ---
 
 'You are out'. It rings in my ears. I look around. My face is stone. No one dares to cross my eyes. Some apathic, some looking down, some busy with their phones.
