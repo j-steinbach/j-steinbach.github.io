@@ -1,11 +1,8 @@
 ---
-id: "1693416801-FPXK"
-aliases:
-  - "The psychopath and the witch"
-tags: []
 date: "2023-08-30T19:33:21 CEST"
-title: "The psychopath and the witch"
 ---
+
+# The psychopath and the witch
 
 'Witch, I have no soul. Can you help me become human?'
 
