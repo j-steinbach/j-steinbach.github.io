@@ -1,7 +1,3 @@
----
-title: You are out
----
-
 'You are out'. It rings in my ears. I look around. My face is stone. No one dares to cross my eyes. Some apathic, some looking down, some busy with their phones.
 
 You are out. I turn around, show them my back. Step into the floor.

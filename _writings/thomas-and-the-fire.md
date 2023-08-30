@@ -41,3 +41,4 @@ How could you leave?
 'Do you need a tissue?', Claire asks.
 
 I nod. Start smiling. She is still here.
+
