@@ -1,13 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogPost from '../components/BlogPost.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
 ---
 
-<BaseLayout pageTitle="Index">
+<BaseLayout title="Index">
   <h1>Hello World</h1>
 
-  <ul>
-    {allPosts.map((post) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+  <ol class='list-decimal bg-gray-200'>
+    {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
   </ul>
 
 

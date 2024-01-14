@@ -1,6 +1,6 @@
 ---
 date: 2024-01-14
-tag: schreiben
+tags: ["schreiben"]
 layout: "../../layouts/MarkdownLayout.astro"
 title: Der goldene Mann
 ---

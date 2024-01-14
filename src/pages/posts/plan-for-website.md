@@ -2,7 +2,7 @@
 date: 2024-01-14
 layout: "../../layouts/MarkdownLayout.astro"
 title: "Plan for Website"
-tag: blog
+tags: ["blog"]
 ---
 
 ## Step-by-step
