@@ -2,9 +2,10 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
+const pageTitle = "Index";
 ---
 
-<BaseLayout title="Index">
+<BaseLayout pageTitle={pageTitle}>
   <h1>Hello World</h1>
 
   <ol class='list-decimal bg-gray-200'>

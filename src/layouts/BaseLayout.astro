@@ -1,5 +1,5 @@
 ---
-const { title } = Astro.props;
+const { pageTitle } = Astro.props;
 
 // import Header from '../components/Header.astro';
 // import Footer from '../components/Footer.astro';
@@ -13,10 +13,11 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
 		<meta name="description" content="Astro description" />
-    <title>{title}</title>
+    <title>{pageTitle}</title>
   </head>
   <body class="container mx-auto max-w-80 bg-yellow-300">
     <!-- <Header /> -->
+    <h1 class="text-3xl">{pageTitle}</h1>
     <slot/>
     <!-- <Footer /> -->
   </body>
