@@ -1,24 +1,13 @@
 ---
+import BaseLayout from './BaseLayout.astro';
 // 1. The frontmatter prop gives access to frontmatter and other data
 const { frontmatter } = Astro.props;
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Add other Head elements here, like styles and meta tags. -->
-		<meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-    <title>{frontmatter.title}</title>
-  </head>
-  <body class="container mx-auto max-w-screen-sm bg-neutral-300">
+ <BaseLayout pageTitle={frontmatter.title}> 
     <!-- Add other UI components here, like common headers and footers. -->
     <div class="max-w-prose bg-red-200">
       <h1 class="text-3xl">{frontmatter.title}</h1>
       <!-- 2. Rendered HTML will be passed into the default slot. -->
       <slot/>
     </div>
-  </body>
-</html>
+ <BaseLayout/> 
