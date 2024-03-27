@@ -5,6 +5,7 @@ const { pageTitle } = Astro.props;
 // import Footer from '../components/Footer.astro';
 // import '../styles/global.css';
 ---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,13 +13,13 @@ const { pageTitle } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-		<meta name="description" content="Astro description" />
+    <meta name="description" content="Astro description" />
     <title>{pageTitle}</title>
   </head>
-  <body class="container mx-auto max-w-80 bg-yellow-300">
+  <body class="container mx-auto max-w-prose bg-yellow-300">
     <!-- <Header /> -->
-    <h1 class="text-3xl">{pageTitle}</h1>
-    <slot/>
+    <h1 class="text-3xl font-['cinzel'] font-bold">{pageTitle}</h1>
+    <slot />
     <!-- <Footer /> -->
   </body>
 </html>

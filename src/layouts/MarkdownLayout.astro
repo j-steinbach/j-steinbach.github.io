@@ -1,12 +1,27 @@
 ---
-import BaseLayout from './BaseLayout.astro';
+import BaseLayout from "./BaseLayout.astro";
 // 1. The frontmatter prop gives access to frontmatter and other data
 const { frontmatter } = Astro.props;
 ---
- <BaseLayout pageTitle={frontmatter.title}> 
-    <!-- Add other UI components here, like common headers and footers. -->
-    <div class="max-w-prose bg-red-200">
-      <!-- 2. Rendered HTML will be passed into the default slot. -->
-      <slot/>
-    </div>
- <BaseLayout/> 
+
+<BaseLayout pageTitle={frontmatter.title}>
+  <!-- Add other UI components here, like common headers and footers. -->
+  <!-- <div class="max-w-prose bg-red-200"> -->
+  <div
+    class="p-4 prose dark:prose-invert
+  prose-h1:font-bold prose-h1:text-xl
+  prose-a:text-red-600
+  prose-a:no-underline
+  prose-a:italic
+  prose-a:font-['Roboto']
+  prose-p:text-justify
+  prose-img:rounded-xl
+  prose-headings:underline"
+  >
+    <h1 class="not-prose text-3xl font-['cinzel'] font-bold text-black">
+      {frontmatter.title}
+    </h1>
+    <slot />
+  </div>
+  <!-- 2. Rendered HTML will be passed into the default slot. -->
+</BaseLayout>

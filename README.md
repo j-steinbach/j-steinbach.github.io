@@ -39,6 +39,12 @@ All commands are run from the root of the project, from a terminal:
 
 ## Fonts
 
+I use [Fontsource](https://fontsource.org/) to find and install fonts.
+
+To test combinations a tool such as [Fontjoy](https://fontjoy.com/) can be used.
+
+### Combinations
+
 Heading/Name/Signature
 
 - https://fonts.google.com/specimen/Redressed?preview.text=J.%20Steinbach&preview.size=60&classification=Handwriting
