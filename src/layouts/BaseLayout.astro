@@ -1,7 +1,7 @@
 ---
 const { pageTitle } = Astro.props;
 
-// import Header from '../components/Header.astro';
+import Header from "../components/Header.astro";
 // import Footer from '../components/Footer.astro';
 // import '../styles/global.css';
 ---
@@ -17,8 +17,8 @@ const { pageTitle } = Astro.props;
     <title>{pageTitle}</title>
   </head>
   <body class="container mx-auto max-w-prose bg-yellow-300">
-    <!-- <Header /> -->
-    <h1 class="text-3xl font-['cinzel'] font-bold">{pageTitle}</h1>
+    <Header title={pageTitle} />
+    <!-- <h1 class="text-3xl font-['cinzel'] font-bold">{pageTitle}</h1> -->
     <slot />
     <!-- <Footer /> -->
   </body>

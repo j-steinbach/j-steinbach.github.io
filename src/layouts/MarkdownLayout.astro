@@ -18,9 +18,6 @@ const { frontmatter } = Astro.props;
   prose-img:rounded-xl
   prose-headings:underline"
   >
-    <h1 class="not-prose text-3xl font-['cinzel'] font-bold text-black">
-      {frontmatter.title}
-    </h1>
     <slot />
   </div>
   <!-- 2. Rendered HTML will be passed into the default slot. -->
