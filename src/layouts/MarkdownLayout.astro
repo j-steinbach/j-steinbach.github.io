@@ -1,10 +1,10 @@
 ---
-import BaseLayout from "./BaseLayout.astro";
+import ContentLayout from "./ContentLayout.astro";
 // 1. The frontmatter prop gives access to frontmatter and other data
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
+<ContentLayout pageTitle={frontmatter.title}>
   <!-- Add other UI components here, like common headers and footers. -->
   <!-- <div class="max-w-prose bg-red-200"> -->
   <div
@@ -21,4 +21,4 @@ const { frontmatter } = Astro.props;
     <slot />
   </div>
   <!-- 2. Rendered HTML will be passed into the default slot. -->
-</BaseLayout>
+</ContentLayout>

@@ -1,16 +1,56 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
+import IndexHeader from "../components/IndexHeader.astro";
+
 const allPosts = await Astro.glob("../pages/posts/*.md");
 const pageTitle = "Index";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <ol class="list-decimal bg-gray-200">
-    {
-      allPosts.map((post) => (
-        <BlogPost url={post.url} title={post.frontmatter.title} />
-      ))
-    }
-  </ol>
-</BaseLayout><html lang="en"></html>
+  <div class="bg-purple-600">
+    <IndexHeader title={pageTitle} />
+
+    <div class="flex flex-col prose gap-2">
+      <div class="bg-white">
+        <p>
+          I like to write (
+          <a>Blog</a>
+          <a>Lastest posts</a>
+          <a>Tags</a>), draw (
+          <a>Art</a>), and discover music (<a>Spotify</a>). I also like bold
+          colors, whacky designs, books, ducks, swans and nature.
+        </p>
+        <p>
+          I am a German expat living in Belgium, currently attempt to learn
+          Dutch, French and Turkish, and also do pre-doc research about
+          <a>Solid</a>
+          <a>Personal Data Flow in Personal Data Spaces</a> to get my PhD. (<a
+            >KNoWS website</a
+          >
+          <a>ORCID?</a>
+          WebID)
+        </p>
+        <p>
+          I am a German researcher, artist, writer, developer and designer. I
+          like abstract art, bold colors (😇), books, ducks, swans and nature.
+          🦢🦢🦢
+        </p>
+      </div>
+
+      <p>
+        Below you can see my latest writings (<a>→Blog</a>), or you can filter
+        for
+        <a>Tags</a> or <a>See All</a>.
+      </p>
+
+      <ol class="list-decimal">
+        {
+          allPosts.map((post) => (
+            <BlogPost url={post.url} title={post.frontmatter.title} />
+          ))
+        }
+      </ol>
+    </div>
+  </div>
+</BaseLayout>

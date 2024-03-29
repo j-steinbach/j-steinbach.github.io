@@ -46,7 +46,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 [Posts](.) # doesn't work
 
-[Index src](sieben-00-outline)
+[Sieben](sieben-00-outline)
 
-[Index src](ieben-00-outline)
+[Sieben](sieben-00-outline)
 
