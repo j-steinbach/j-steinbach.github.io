@@ -8,36 +8,55 @@ const pageTitle = "Index";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <div class="bg-purple-600">
+  <div class="bg-black">
     <IndexHeader title={pageTitle} />
 
-    <div class="flex flex-col prose gap-2">
-      <div class="bg-white">
-        <p>
-          I like to write (
-          <a>Blog</a>
-          <a>Lastest posts</a>
-          <a>Tags</a>), draw (
-          <a>Art</a>), and discover music (<a>Spotify</a>). I also like bold
-          colors, whacky designs, books, ducks, swans and nature.
-        </p>
-        <p>
-          I am a German expat living in Belgium, currently attempt to learn
-          Dutch, French and Turkish, and also do pre-doc research about
-          <a>Solid</a>
-          <a>Personal Data Flow in Personal Data Spaces</a> to get my PhD. (<a
-            >KNoWS website</a
-          >
-          <a>ORCID?</a>
-          WebID)
-        </p>
-        <p>
-          I am a German researcher, artist, writer, developer and designer. I
-          like abstract art, bold colors (😇), books, ducks, swans and nature.
-          🦢🦢🦢
-        </p>
-      </div>
+    <div class="flex flex-col prose space-y-0">
+      <p
+        class="bg-[#dbe2e9] p-2 first-line:uppercase first-line:tracking-widest
+  first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+  first-letter:mr-3 first-letter:float-left space-y-0 m-0"
+      >
+        I am a German expat living in Belgium. I speak German, English, as well
+        as some Dutch, French, and Turkish. &#127465;&#127466;
+        &#127463;&#127466; &#127475;&#127473; &#127467;&#127479;
+        &#127481;&#127479;
+      </p>
+      <p
+        class="bg-[#e2e2e2] p-2 first-line:uppercase first-line:tracking-widest
+  first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+  first-letter:mr-3 first-letter:float-left"
+      >
+        I like to write and tell stories. See my <a>blog</a>, my latest posts,
+        or search by tag.
+      </p>
+      <p
+        class="bg-[#e9e2dc] p-2 first-line:uppercase first-line:tracking-widest
+  first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+  first-letter:mr-3 first-letter:float-left"
+      >
+        I like to create, draw, and design. I love bold colors and abstract art.
+        See my Instagram, drawings,
+      </p>
+      <p
+        class="bg-[#efe2d5] p-2 first-line:uppercase first-line:tracking-widest
+  first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+  first-letter:mr-3 first-letter:float-left"
+      >
+        I am a developer, designer, and pre-doc researcher. I investigate
+        Personal Data Flows in Personal Data Spaces at KNoWS. See my Github,
+        Orcid, and publications.
+      </p>
+      <p
+        class="bg-[#f6e2ce] p-2 first-line:uppercase first-line:tracking-widest
+  first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900
+  first-letter:mr-3 first-letter:float-left"
+      >
+        I love swans, books and pizza. <a class="text-white">Contact me!</a> 🦢🦢🦢
+      </p>
+    </div>
 
+    <div class="flex flex-col prose">
       <p>
         Below you can see my latest writings (<a>→Blog</a>), or you can filter
         for
