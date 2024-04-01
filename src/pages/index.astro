@@ -19,9 +19,9 @@ const pageTitle = "Index";
       >
         <span class="uppercase tracking-widest">
           I am a German expat living in Belgium.
-        </span> I speak German, English, as well as some Dutch, French, and Turkish.
-        &#127465;&#127466; &#127463;&#127466; &#127475;&#127473; &#127467;&#127479;
-        &#127481;&#127479;
+        </span>
+        I like swans, books and pizza 🦢🦢🦢
+               
       </p>
       <p
         class="border-2 bg-teal-50 border-teal-400 p-2
@@ -29,10 +29,10 @@ const pageTitle = "Index";
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-teal-300 first-letter:p-2"
       >
         <span class="uppercase tracking-widest">
-          Research is my past-time. 
+          Research is my passion. 
         </span>
-        I investigate Personal Data Flows in Personal Data Spaces at KNoWS. See my
-        Github, Orcid, and publications.
+        I currently do a PhD in Computer Science Engineering at KNoWS/SolidLab. My personal research direction is <span class="italic">Personal Data, Data Flows and Personal Data Spaces</span>.
+        See my Orcid, and publications.
       </p>
       <p
         class="border-2 bg-sky-50 border-sky-400 p-2 
@@ -40,10 +40,10 @@ const pageTitle = "Index";
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-sky-300 first-letter:p-2"
       >
         <span class="uppercase tracking-widest">
-          Writing is my lifeblood. 
+          Writing is my soul. 
         </span>
-        I like to write and tell stories,
-        and occasionally post something in my <a>blog</a>.
+        I like to write and tell stories, as well as comming up with game designs.
+        I occasionally (rarely!) post something in my <a>blog</a>.
 
       </p>
       <p
@@ -52,11 +52,9 @@ const pageTitle = "Index";
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-indigo-300 first-letter:p-2"
       >
         <span class="uppercase tracking-widest">
-          Art is my soul. 
+          Art is my life-blood. 
         </span>
-        I love create, draw, and design.
         I love bold colors and abstract art. See my Instagram, drawings,
-
       </p>
       <p
         class="border-2 bg-purple-50 border-purple-400 p-2
@@ -64,21 +62,25 @@ const pageTitle = "Index";
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-purple-300 first-letter:p-2"
       >
         <span class="uppercase tracking-widest">
-          Contact me! 
+          Contact me!
         </span>
-        I like swans, books and pizza 🦢🦢🦢
+        I speak German, English, as well as some Dutch, French, and Turkish.
+        &#127465;&#127466; &#127463;&#127466; &#127475;&#127473; &#127467;&#127479;
+        &#127481;&#127479;
+
         TODO: Icons to Github, OrcID, Email, 
+
         <a class="">Kontakt</a> 
       </p>
 
       <div class="flex flex-col prose">
         <p>
-          Below you can see my latest writings (<a>→Blog</a>), or you can filter
-          for
-          <a>Tags</a> or <a>See All</a>.
+          Below you can see my latest writings (<a>→Blog</a>), or you can look at 
+          all 
+          <a>Tags</a>.
         </p>
 
-        <ol class="list-decimal">
+        <ol class="list-decimal bg-yellow-200">
           {
           allPosts.map((post) => (
             <BlogPost url={post.url} title={post.frontmatter.title} />
