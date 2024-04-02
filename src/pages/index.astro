@@ -13,47 +13,40 @@ const pageTitle = "Index";
 
     <div class="flex flex-col prose space-y-1 mx-1">
       <p
-        class="border-2 bg-green-50 border-green-400 p-2 m-0 
+        class="border-2 bg-green-50 border-green-400 p-2 m-0
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
-        first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-green-400 first-letter:p-2 "
+        first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-green-400 first-letter:p-2"
       >
-        <span class="uppercase tracking-widest">
-          I am a German expat living in Belgium.
-        </span>
-        I like swans, books and pizza 🦢🦢🦢
-               
+        <span class="uppercase tracking-widest"> Books are my love.</span>
+        Books, swans, rain and pizza — what more to want in life? 🦢🦢🦢 But I also
+        love to dance, travel, cook and explore. Yup, this is a dating profile 😁
       </p>
       <p
         class="border-2 bg-teal-50 border-teal-400 p-2
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-teal-300 first-letter:p-2"
       >
-        <span class="uppercase tracking-widest">
-          Research is my passion. 
-        </span>
-        I currently do a PhD in Computer Science Engineering at KNoWS/SolidLab. My personal research direction is <span class="italic">Personal Data, Data Flows and Personal Data Spaces</span>.
-        See my Orcid, and publications.
+        <span class="uppercase tracking-widest"> Research is my passion.</span>
+        I currently do a PhD in Computer Science Engineering at KNoWS/SolidLab. My
+        personal research direction is <span class="italic"
+          >Personal Data, Data Flows and Personal Data Spaces</span
+        >. See my Orcid, CV, and publications.
       </p>
       <p
-        class="border-2 bg-sky-50 border-sky-400 p-2 
+        class="border-2 bg-sky-50 border-sky-400 p-2
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-sky-300 first-letter:p-2"
       >
-        <span class="uppercase tracking-widest">
-          Writing is my soul. 
-        </span>
-        I like to write and tell stories, as well as comming up with game designs.
-        I occasionally (rarely!) post something in my <a>blog</a>.
-
+        <span class="uppercase tracking-widest"> Writing is my soul.</span>
+        I like to write and tell stories, as well as to design games. I occasionally
+        (rarely!) post something in my <a>blog</a>.
       </p>
       <p
         class="border-2 bg-indigo-50 border-indigo-400 p-2
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-indigo-300 first-letter:p-2"
       >
-        <span class="uppercase tracking-widest">
-          Art is my life-blood. 
-        </span>
+        <span class="uppercase tracking-widest"> Art is my life-blood.</span>
         I love bold colors and abstract art. See my Instagram, drawings,
       </p>
       <p
@@ -61,30 +54,26 @@ const pageTitle = "Index";
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-purple-300 first-letter:p-2"
       >
-        <span class="uppercase tracking-widest">
-          Contact me!
-        </span>
-        I speak German, English, as well as some Dutch, French, and Turkish.
-        &#127465;&#127466; &#127463;&#127466; &#127475;&#127473; &#127467;&#127479;
-        &#127481;&#127479;
+        <span class="uppercase tracking-widest"> Contact me!</span>
+        I speak German, English, as well as some Dutch, French, and Turkish. &#127465;&#127466;
+        &#127463;&#127466; &#127475;&#127473; &#127467;&#127479; &#127481;&#127479;
+        TODO: Icons to Github, OrcID, Email, accounts and contacts.
 
-        TODO: Icons to Github, OrcID, Email, 
-
-        <a class="">Kontakt</a> 
+        <a class="">Kontakt</a>
       </p>
 
       <div class="flex flex-col prose">
         <p>
-          Below you can see my latest writings (<a>→Blog</a>), or you can look at 
-          all 
+          Below is a list of my latest writings and blog posts. Alternatively,
+          you can browse by tags
           <a>Tags</a>.
         </p>
 
         <ol class="list-decimal bg-yellow-200">
           {
-          allPosts.map((post) => (
-            <BlogPost url={post.url} title={post.frontmatter.title} />
-          ))
+            allPosts.map((post) => (
+              <BlogPost url={post.url} title={post.frontmatter.title} />
+            ))
           }
         </ol>
       </div>
