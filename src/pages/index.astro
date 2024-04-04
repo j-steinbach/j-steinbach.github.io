@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 import IndexHeader from "../components/IndexHeader.astro";
+import { Icon } from "astro-icon/components";
 
 const allPosts = await Astro.glob("../pages/posts/*.md");
 const pageTitle = "Index";
@@ -11,15 +12,15 @@ const pageTitle = "Index";
   <div class="">
     <IndexHeader title={pageTitle} />
 
-    <div class="flex flex-col prose space-y-1 mx-1">
+    <div class="flex flex-col prose space-y-1 mx-1 sm:mr-0">
       <p
         class="border-2 bg-green-50 border-green-400 p-2 m-0
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-green-400 first-letter:p-2"
       >
         <span class="uppercase tracking-widest"> Books are my love.</span>
-        Books, swans, rain and pizza — what more to want in life? 🦢🦢🦢 But I also
-        love to dance, travel, cook and explore. Yup, this is a dating profile 😁
+        Books, swans, rain and pizza — what more to want in life? 🦢🦢🦢
+        <a>Contact me!</a>
       </p>
       <p
         class="border-2 bg-teal-50 border-teal-400 p-2
@@ -27,8 +28,10 @@ const pageTitle = "Index";
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-teal-300 first-letter:p-2"
       >
         <span class="uppercase tracking-widest"> Research is my passion.</span>
-        I currently do a PhD in Computer Science Engineering at KNoWS/SolidLab. My
-        personal research direction is <span class="italic"
+        I currently do a PhD in Computer Science Engineering in the <a
+          href="https://knows.idlab.ugent.be/">KNoWS</a
+        > team at <a href="https://www.ugent.be/">UGent</a> in Belgium. My personal
+        research direction is <span class="italic"
           >Personal Data, Data Flows and Personal Data Spaces</span
         >. See my Orcid, CV, and publications.
       </p>
@@ -54,13 +57,34 @@ const pageTitle = "Index";
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-purple-300 first-letter:p-2"
       >
-        <span class="uppercase tracking-widest"> Contact me!</span>
-        I speak German, English, as well as some Dutch, French, and Turkish. &#127465;&#127466;
-        &#127463;&#127466; &#127475;&#127473; &#127467;&#127479; &#127481;&#127479;
-        TODO: Icons to Github, OrcID, Email, accounts and contacts.
-
-        <a class="">Kontakt</a>
+        <span class="uppercase tracking-widest"> Music is my pastime.</span>
+        I love to dance, jump, and sing. Festivals, conerts, raves, opera, everything
+        goes! I also like to collect and listen to music from all around the world.
+        See my recommendations! (TODO)
       </p>
+
+      <!-- Food, cooking -->
+      <!-- Travel -->
+
+      <!-- <p -->
+      <!--   class="px-2 pt-4 -->
+      <!--   first-letter:text-7xl first-letter:font-bold first-letter:text-slate-900 -->
+      <!--   first-letter:mr-2 first-letter:float-left first-letter:font-serif" -->
+      <!-- > -->
+      <!--   <span class="uppercase tracking-widest"> Contact me!</span> -->
+      <!--   I speak German, English, as well as some Dutch, French, and Turkish &#127465;&#127466; -->
+      <!--   &#127463;&#127466; &#127475;&#127473; &#127467;&#127479; &#127481;&#127479; -->
+      <!-- </p> -->
+
+      <div class="flex flex-row gap-x-4 pb-4 pt-4">
+        <div class="bg-stone-800 grow"></div>
+        <a href="#"><Icon name="mdi:email" class="w-8 h-8" /></a>
+        <a href="#"><Icon name="mdi:github" class="w-8 h-8" /></a>
+        <a href="#"><Icon name="mdi:instagram" class="w-8 h-8" /></a>
+        <a href="#"><Icon name="mdi:university" class="w-8 h-8" /></a>
+        <a href="#"><Icon name="mdi:linkedin" class="w-8 h-8" /></a>
+        <div class="bg-stone-800 grow"></div>
+      </div>
 
       <div class="flex flex-col prose">
         <p>
