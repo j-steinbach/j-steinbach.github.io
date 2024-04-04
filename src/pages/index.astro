@@ -32,7 +32,7 @@ const pageTitle = "Index";
           href="https://knows.idlab.ugent.be/">KNoWS</a
         > team at <a href="https://www.ugent.be/">UGent</a> in Belgium. My personal
         research direction is <span class="italic"
-          >Personal Data, Data Flows and Personal Data Spaces</span
+        >Personal Data, Data Flows and Personal Data Spaces</span
         >. See my Orcid, CV, and publications.
       </p>
       <p
@@ -76,34 +76,40 @@ const pageTitle = "Index";
       <!--   &#127463;&#127466; &#127475;&#127473; &#127467;&#127479; &#127481;&#127479; -->
       <!-- </p> -->
 
-      
-
-      <div class="flex flex-row gap-x-4 pb-4 pt-4">
-        <div class="bg-stone-800 grow sm:hidden"></div>
-        <h3 class="grow bg-stone-800 text-yellow-300 font-sans pl-4 w-0 m-0 hidden sm:block">Contact me!</h3>
-        <a href="#"><Icon name="mdi:email" class="w-8 h-8" /></a>
-        <a href="#"><Icon name="mdi:github" class="w-8 h-8" /></a>
-        <a href="#"><Icon name="mdi:instagram" class="w-8 h-8" /></a>
-        <a href="#"><Icon name="mdi:university" class="w-8 h-8" /></a>
-        <a href="#"><Icon name="mdi:linkedin" class="w-8 h-8" /></a>
-        <div class="bg-stone-800 grow"></div>
-      </div>
-
-      <div class="flex flex-col prose">
-        <p>
-          Below is a list of my latest writings and blog posts. Alternatively,
-          you can browse by tags
-          <a>Tags</a>.
-        </p>
-
-        <ol class="list-decimal bg-yellow-200">
-          {
-            allPosts.map((post) => (
-              <BlogPost url={post.url} title={post.frontmatter.title} />
-            ))
-          }
-        </ol>
-      </div>
     </div>
+
+
+
+    <!-- Contact + Icons -->
+    <div class="flex flex-row gap-x-4 pb-4 pt-4">
+      <div class="bg-stone-800 grow sm:hidden"></div>
+      <h3 class="grow bg-stone-800 text-yellow-300 font-sans text-xl text-center w-0 m-0 hidden sm:block">Contact me!</h3>
+      <a href="#"><Icon name="mdi:email" class="w-8 h-8" /></a>
+      <a href="#"><Icon name="mdi:github" class="w-8 h-8" /></a>
+      <a href="#"><Icon name="mdi:instagram" class="w-8 h-8" /></a>
+      <a href="#"><Icon name="mdi:university" class="w-8 h-8" /></a>
+      <a href="#"><Icon name="mdi:linkedin" class="w-8 h-8" /></a>
+      <div class="bg-stone-800 grow"></div>
+    </div>
+
+    <div class="bg-stone-800 h-1 my-2"></div>
+
+    <!-- Latest blog posts -->
+    <div class="flex flex-col prose">
+      <p>
+        Below is a list of my latest writings and blog posts. Alternatively,
+        you can browse by tags
+        <a>Tags</a>.
+      </p>
+
+      <ol class="list-decimal bg-yellow-200">
+        {
+        allPosts.map((post) => (
+          <BlogPost url={post.url} title={post.frontmatter.title} />
+        ))
+        }
+      </ol>
+    </div>
+
   </div>
 </BaseLayout>
