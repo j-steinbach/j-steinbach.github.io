@@ -1,6 +1,5 @@
 ---
 date: 2024-02-06
-layout: "../../layouts/MarkdownLayout.astro"
 aliases: []
 tags: [gedicht, schreiben]
 title: "Blutlust"

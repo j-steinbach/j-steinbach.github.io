@@ -1,6 +1,5 @@
 ---
 date: 2024-02-04
-layout: "../../layouts/MarkdownLayout.astro"
 aliases: []
 tags: [sieben, schreiben]
 title: "Dämonenbeschwörung"

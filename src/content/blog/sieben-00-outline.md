@@ -1,6 +1,5 @@
 ---
 date: 2024-01-27
-layout: "../../layouts/MarkdownLayout.astro"
 aliases: []
 tags: [sieben, outline, "story treatment", schreiben]
 title: "Sieben Outline"

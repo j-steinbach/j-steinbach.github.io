@@ -1,6 +1,5 @@
 ---
 date: 2024-02-04
-layout: "../../layouts/MarkdownLayout.astro"
 aliases: []
 tags: [gedicht, schreiben]
 title: "Nebelgirlanden"

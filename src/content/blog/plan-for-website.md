@@ -1,6 +1,5 @@
 ---
 date: 2024-01-14
-layout: "../../layouts/MarkdownLayout.astro"
 title: "Plan for Website"
 tags: ["blog"]
 ---
@@ -16,6 +15,7 @@ tags: ["blog"]
   - Markdown focus
 - [ ] Publish
   - Github Pages?
+  - URL
 
 ### Improvements
 

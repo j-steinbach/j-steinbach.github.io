@@ -1,11 +1,13 @@
 ---
 date: 2024-01-14
 tags: ["schreiben"]
-layout: "../../layouts/MarkdownLayout.astro"
 title: Der goldene Mann
 ---
 
 In der Wüste stand eine Säule, und auf ihr saß ein Mann. Seine Haut glänzte bronzen in der unnerbittlichen Sonne, er war ohne Kleider und ohne Haar. Aber das machte ihm nichts. Er kannte nichts anderes. Tagein, taugaus saß er auf der Säule und schaute in die Sonne. Genoß die brennende Hitze, die sengenden Strahlen und die brütende Glut.
+
+
+<!-- In der Wüste steht eine Säule, und auf ihr steht ein Mann. Sein Schweiß glänzt in der Sonne, und er ist nackt. -->
 
 Wie lange er dort wohl schon saß? Warum er dort wohl saß? Wer hatte die Säule erbaut? Wie hielt er es ohne Nahrung aus? Ohne Wasser? Ohne Schatten? Und war ihm nicht langweilig?
 
