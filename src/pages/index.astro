@@ -1,10 +1,14 @@
 ---
+import { getCollection } from "astro:content";
+
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 import IndexHeader from "../components/IndexHeader.astro";
 import { Icon } from "astro-icon/components";
 
-const allPosts = await Astro.glob("../pages/posts/*.md");
+// const allPosts = await Astro.glob("../pages/posts/*.md");
+const blogEntries = await getCollection("blog");
+
 const pageTitle = "Index";
 ---
 
@@ -32,7 +36,7 @@ const pageTitle = "Index";
           href="https://knows.idlab.ugent.be/">KNoWS</a
         > team at <a href="https://www.ugent.be/">UGent</a> in Belgium. My personal
         research direction is <span class="italic"
-        >Personal Data, Data Flows and Personal Data Spaces</span
+          >Personal Data, Data Flows and Personal Data Spaces</span
         >. See my Orcid, CV, and publications.
       </p>
       <p
@@ -75,15 +79,16 @@ const pageTitle = "Index";
       <!--   I speak German, English, as well as some Dutch, French, and Turkish &#127465;&#127466; -->
       <!--   &#127463;&#127466; &#127475;&#127473; &#127467;&#127479; &#127481;&#127479; -->
       <!-- </p> -->
-
     </div>
-
-
 
     <!-- Contact + Icons -->
     <div class="flex flex-row gap-x-4 pb-4 pt-4">
       <div class="bg-stone-800 grow sm:hidden"></div>
-      <h3 class="grow bg-stone-800 text-yellow-300 font-sans text-xl text-center w-0 m-0 hidden sm:block">Contact me!</h3>
+      <h3
+        class="grow bg-stone-800 text-yellow-300 font-sans text-xl text-center w-0 m-0 hidden sm:block"
+      >
+        Contact me!
+      </h3>
       <a href="#"><Icon name="mdi:email" class="w-8 h-8" /></a>
       <a href="#"><Icon name="mdi:github" class="w-8 h-8" /></a>
       <a href="#"><Icon name="mdi:instagram" class="w-8 h-8" /></a>
@@ -97,19 +102,30 @@ const pageTitle = "Index";
     <!-- Latest blog posts -->
     <div class="flex flex-col prose">
       <p>
-        Below is a list of my latest writings and blog posts. Alternatively,
-        you can browse by tags
-        <a>Tags</a>.
+        Below is a list of my latest writings and blog posts. Alternatively, you
+        can browse by <a>tags</a>.
       </p>
 
       <ol class="list-decimal bg-yellow-200">
         {
-        allPosts.map((post) => (
-          <BlogPost url={post.url} title={post.frontmatter.title} />
-        ))
+          blogEntries.map((post) => (
+            <>
+              <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} />
+            </>
+          ))
         }
       </ol>
+      <!-- <ul> -->
+      <!--   { -->
+      <!--     blogEntries.map((blogPostEntry) => ( -->
+      <!--       <li> -->
+      <!--         <a href={`/my-blog-url/${blogPostEntry.slug}`}> -->
+      <!--           {blogPostEntry.data.title} -->
+      <!--         </a> -->
+      <!--       </li> -->
+      <!--     )) -->
+      <!--   } -->
+      <!-- </ul> -->
     </div>
-
   </div>
 </BaseLayout>

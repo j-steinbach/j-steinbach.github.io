@@ -1,6 +1,5 @@
 ---
 date: 2024-05-11
-layout: "../../layouts/MarkdownLayout.astro"
 aliases: [ Wisdom ]
 tags: [Ich, Lebensweisheiten]
 title: "Weisheiten"
