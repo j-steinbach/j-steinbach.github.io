@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 import IndexHeader from "../components/IndexHeader.astro";
+import ContactIcons from "../components/ContactIcons.astro";
 import { Icon } from "astro-icon/components";
 
 // const allPosts = await Astro.glob("../pages/posts/*.md");
@@ -17,10 +18,13 @@ const pageTitle = "Index";
     <IndexHeader title={pageTitle} />
 
     <div class="flex flex-col prose space-y-1 mx-1 sm:mr-1 sm:ml-1">
-      <p class="italic text-xl mt-1 mb-1 mx-1 sm:mx-0">
+      <p class="italic text-xl mt-1 mb-1 mx-1 sm:mx-0 text-center">
         Ain't it awesome? Bold colors, cool fonts, emojis, and interesting
-        content 🦢🦢🦢
+        content  
+        <!-- ▁▂▃▄▅▇▅▄▃▂▁ -->
       </p>
+      <p class="text-center">
+      😇🦆🦆🌻</p>
 
       <p
         class="border-2 bg-green-50 border-green-400 p-2 m-0
@@ -93,12 +97,7 @@ const pageTitle = "Index";
       >
         Contact me!
       </h3>
-      <a href="#"><Icon name="mdi:email" class="w-8 h-8" /></a>
-      <a href="#"><Icon name="mdi:github" class="w-8 h-8" /></a>
-      <a href="#"><Icon name="mdi:instagram" class="w-8 h-8" /></a>
-      <a href="#"><Icon name="mdi:university" class="w-8 h-8" /></a>
-      <a href="#"><Icon name="mdi:linkedin" class="w-8 h-8" /></a>
-      <div class="bg-stone-800 grow"></div>
+      <ContactIcons/>
     </div>
 
     <div class="bg-stone-800 h-1 my-1"></div>
@@ -110,7 +109,7 @@ const pageTitle = "Index";
       <span class="font-semibold">Did you know?</span>
       My color palette for this website was inspired by the song &#127900; <span
         class="italic">House of the Rising Sun</span
-      > (The Animals)? You should definitely listen to it, it will brighten your
+      > (The Animals). You should definitely listen to it, it will brighten your
       day!
     </p>
     <br />
