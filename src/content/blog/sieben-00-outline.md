@@ -3,6 +3,7 @@ date: 2024-01-27
 aliases: []
 tags: [sieben, outline, "story treatment", schreiben]
 title: "Sieben Outline"
+public: true
 ---
 
 Themes: Loneliness, Curiosity, Adventure, Awakening, Pandora's Box, Wizardry, Fairy Tales, Horror

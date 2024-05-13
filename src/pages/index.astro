@@ -8,7 +8,9 @@ import ContactIcons from "../components/ContactIcons.astro";
 import { Icon } from "astro-icon/components";
 
 // const allPosts = await Astro.glob("../pages/posts/*.md");
-const blogEntries = await getCollection("blog");
+const blogEntries = await getCollection('blog', ({ data }) => {
+  return data.public === true;
+});
 
 const pageTitle = "Index";
 ---
