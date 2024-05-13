@@ -1,0 +1,16 @@
+---
+import ContentLayout from "../layouts/ContentLayout.astro";
+// 1. The frontmatter prop gives access to frontmatter and other data
+const { frontmatter } = Astro.props;
+---
+
+<ContentLayout pageTitle={"Impressum"}>
+  <div class="flex-grow">
+    <p>Jonas Steinbach</p>
+    <p>Stropstraat 87/201</p>
+    <p>9000 Gent, Belgien</p>
+
+    <p>Telefon: +32 092471222</p>
+    <p>E-Mail: acco@mailbox.org</p>
+  </div>
+</ContentLayout>
