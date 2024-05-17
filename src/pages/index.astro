@@ -8,7 +8,7 @@ import ContactIcons from "../components/ContactIcons.astro";
 import { Icon } from "astro-icon/components";
 
 // const allPosts = await Astro.glob("../pages/posts/*.md");
-const blogEntries = await getCollection('blog', ({ data }) => {
+const blogEntries = await getCollection("blog", ({ data }) => {
   return data.public === true;
 });
 
@@ -21,43 +21,55 @@ const pageTitle = "Index";
 
     <div class="flex flex-col prose space-y-1 mx-1 sm:mr-1 sm:ml-1">
       <p class="italic text-xl mt-1 mb-1 mx-1 sm:mx-0 text-center">
-        Ain't it awesome? Bold colors, cool fonts, emojis, and interesting
-        content  
+        Ain't it <span class="font-bold">R.A.D.D</span>? <span
+          class="not-italic">Reasearch, Art, Development and Design</span
+        > — that is what it's all about! Bold colors, cool fonts, awesome content,
+        attention to detail. You will love it!
         <!-- ▁▂▃▄▅▇▅▄▃▂▁ -->
       </p>
-      <p class="text-center">
-      😇🦆🦆🌻</p>
+      <p class="text-center">😇🦆🦆🌻</p>
 
       <p
         class="border-2 bg-green-50 border-green-400 p-2 m-0
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-green-400 first-letter:p-2"
       >
-        <span class="uppercase tracking-wide font-semibold">Why?</span>
-        Because I can, because its fun and because I needed a professional platform
-        to share my stuff.
+        <span class="uppercase tracking-wide font-semibold">Hello World!</span>
+        Look around, take your time. <a href="./resume-2024.pdf"
+          >Scrutinize my CV</a
+        >, <a>enjoy my art</a>, <a>marvel at my master thesis (German)</a>, <a
+          >browse my blog</a
+        > or <a>contact me</a>.
       </p>
       <p
         class="border-2 bg-teal-50 border-teal-400 p-2
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-teal-300 first-letter:p-2"
       >
-        <span class="uppercase tracking-wide font-semibold">Professional…?</span
-        >
-        Don't believe me? <a href="./resume-2024.pdf">Scrutinize my CV!</a>
-        I am a computer science researcher and developer advocate, know how to design,
-        develop and launch apps, know a lot about usability, UI/UX, game design and
-        learning, and also am a upcoming artist and aspiring novelist!
+        <span class="uppercase font-semibold">Why R.A.D.D?</span>
+        Because I'm <span class=""
+          >Researcher, Artist, Designer and Developer!</span
+        > …and gamification and learning enthusiast, master of computer science,
+        know how to design, develop and launch apps and games, always think about
+        user experience and usability, always keep best interest of my users in mind,
+        am an aspiring novelist and talented texter, and always stay humble and down-to-earth,
+        and never brag 😇. You can take my word for it, or otherwise
+        <a href="./resume-2024.pdf">scrutinize my CV!</a>, <a
+          >read my master thesis</a
+        > (and <a>play with my research prototype</a>).
       </p>
       <p
         class="border-2 bg-sky-50 border-sky-400 p-2
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-sky-300 first-letter:p-2"
       >
-        <span class="uppercase tracking-wide font-semibold">Art…?</span>
-        Yes, I do abstract digital art — not to brag, but my mom really likes it,
-        and a stranger also once asked me if I plan to sell a print! So go ahead
-        and <a>view my art collection</a>, leave a like and also
+        <span class="uppercase tracking-wide font-semibold"
+          >Let's talk about art!</span
+        >
+        I love art and colors! I do abstract digital art — not to brag, but my mom
+        really likes it, and a stranger also once asked me if I plan to sell some
+        prints! So go ahead and <a>view my art collection</a>, like and
+        subscribe and also
         <a>follow me on Instagram</a>!
       </p>
       <p
@@ -65,10 +77,12 @@ const pageTitle = "Index";
         first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-indigo-300 first-letter:p-2"
       >
-        <span class="uppercase tracking-wide font-semibold">Writings.</span>
-        It might come as a surprise, but I also write and have opinions.
-        <a>Read my latest writings and blog posts</a>, or look below for a quick
-        peek.
+        <span class="uppercase tracking-wide font-semibold"
+          >What about writings?</span
+        >
+        It might come as a surprise, but I also write and have a blog.
+        <a>Browse my writings and posts</a>, or scroll down futher for a quick
+        peek. (TODO)
         <!-- Recipes -->
       </p>
       <p
@@ -77,9 +91,9 @@ const pageTitle = "Index";
         first-letter:mr-2 first-letter:float-left first-letter:font-mono first-letter:bg-purple-300 first-letter:p-2"
       >
         <span class="uppercase tracking-wide font-semibold">Contact me!</span>
-        I am an awesome guy, love swans, colors and pizza, and speak German, English
-        and Dutch, and also some French and Turkish &#127465;&#127466; &#127463;&#127466;
-        &#127475;&#127473; &#127467;&#127479; &#127481;&#127479;
+        I am awesome, love swans, colors and pizza, and speak German, English and
+        Dutch, and some French and Turkish &#127465;&#127466; &#127482;&#127480;
+        &#127463;&#127466; &#127475;&#127473; &#127467;&#127479; &#127481;&#127479;
       </p>
 
       <!-- <p -->
@@ -99,7 +113,7 @@ const pageTitle = "Index";
       >
         Contact me!
       </h3>
-      <ContactIcons/>
+      <ContactIcons />
     </div>
 
     <div class="bg-stone-800 h-1 my-1"></div>
@@ -137,10 +151,11 @@ const pageTitle = "Index";
     </ol>
   </div>
 
-  <div class="bg-stone-800 text-white  p-1 place-content-center flex flex-row">
-    <a class="self-end text-end italic underline" href="./impressum">Impressum</a>
-    <div class="w-4"/>
+  <div class="bg-stone-800 text-white p-1 place-content-center flex flex-row">
+    <a class="self-end text-end italic underline" href="./impressum"
+      >Impressum</a
+    >
+    <div class="w-4"></div>
     <p class="text-left">2024 © Jonas Steinbach</p>
   </div>
-
 </BaseLayout>

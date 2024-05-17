@@ -7,16 +7,16 @@ public: true
 
 ## Step-by-step
 
-- [ ] Setup Astro
-- [ ] Setup Tailwind
+- [x] Setup Astro
+- [x] Setup Tailwind
   - mobile first design, narrow column
   - no styling, just content!
-- [ ] Add writings
-- [ ] Style writings
+- [x] Add writings
+- [x] Style writings
   - Markdown focus
-- [ ] Publish
-  - Github Pages?
-  - URL
+- [x] Publish
+  - [X] Github Pages?
+  - URL; domain
 
 ### Improvements
 
@@ -31,7 +31,8 @@ public: true
 
 - Intro page
   - My name
-  - Contact link
   - TOC
 - List of blogs, writings (Collection)
 - Gallery/Images
+- Impressum/Contact
+- Bachelor, Masterthesis + Phaser-Demo
