@@ -6,7 +6,8 @@ title: "Simply great music, artists and albums"
 public: true
 ---
 
-Lot's of German music :)
+Lot's of (German) music :) I mainly list albums I can remember I listened to a lot, as naming every single song and artist I like would go beyond scope _fast_. 
+
 
 ## 1970: Santana — Abraxas (US)
 
