@@ -1,0 +1,11 @@
+---
+import ContentLayout from "../layouts/ContentLayout.astro";
+import ImageComponent from "../components/ImageComponent.astro";
+const { frontmatter } = Astro.props;
+---
+
+<ContentLayout pageTitle={"Art"}>
+  <div class="flex-grow">
+    <ImageComponent imagePath="/src/assets/74.png" />
+  </div>
+</ContentLayout>
