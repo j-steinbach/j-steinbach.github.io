@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+        sans: ["Roboto", "Poppins", "Cinzel", ...defaultTheme.fontFamily.sans],
       },
     },
   },
