@@ -2,7 +2,7 @@
 date: 2024-05-11
 aliases: [ Wisdom ]
 tags: [Ich, Lebensweisheiten]
-public: true
+public: false
 title: "Weisheiten"
 ---
 

@@ -1,11 +1,16 @@
 ---
+import { Image } from "astro:assets";
+
+const { imgSrc } = Astro.props;
 import ContentLayout from "../layouts/ContentLayout.astro";
 import ImageComponent from "../components/ImageComponent.astro";
 const { frontmatter } = Astro.props;
+
+const images = await Astro.glob("../assets/art/*.png");
 ---
 
 <ContentLayout pageTitle={"Art"}>
   <div class="flex-grow">
-    <ImageComponent imagePath="/src/assets/74.png" />
+    images.map((image) => {(<Image src={image.url} alt="" />)})
   </div>
 </ContentLayout>
