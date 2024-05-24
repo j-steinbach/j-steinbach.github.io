@@ -36,9 +36,11 @@ const pageTitle = "Index";
         <span class="uppercase tracking-wide font-semibold">Hello World!</span>
         Look around, take your time. <a href="./resume-2024.pdf"
           >Scrutinize my CV</a
-        >, <a>enjoy my art</a>, <a>marvel at my master thesis (German)</a>, <a
-          >browse my blog</a
-        > or <a>contact me</a>.
+        >, <a href="https://www.instagram.com/altgans/">enjoy my art</a>, <a
+          href="./master-thesis.pdf">marvel at my master thesis (German)</a
+        >, <a href="#blog">browse my blog</a> or <a href="#contact"
+          >contact me</a
+        >.
       </p>
       <p
         class="border-2 bg-pink-50 border-pink-300 p-2
@@ -54,9 +56,10 @@ const pageTitle = "Index";
         experience and usability, always keep the best interest of my users in mind,
         am an aspiring and inspiring novelist and talented texter, and always stay
         humble and down-to-earth, and never brag 😇. Take my word for it, or
-        <a href="./resume-2024.pdf">scrutinize my CV!</a>, <a
+        <a href="./resume-2024.pdf">scrutinize my CV!</a>, or <a
           href="./master-thesis.pdf">read my master thesis</a
-        > (and <a>play with my research prototype</a> TODO).
+        >.
+        <!-- (and <a>play with my research prototype</a> ). -->
       </p>
       <p
         class="border-2 bg-fuchsia-50 border-fuchsia-300 p-2
@@ -67,8 +70,8 @@ const pageTitle = "Index";
         >
         I love art and colors! I do abstract digital art — not to brag, but my mom
         really likes it, and a stranger also once asked me if I plan to sell some
-        prints! So go ahead and <a>view my art collection</a>, like and
-        subscribe and also
+        prints! So go ahead and
+        <!-- <a>view my art collection</a>, like and subscribe and also -->
         <a>follow me on Instagram</a>!
       </p>
       <p
@@ -80,8 +83,8 @@ const pageTitle = "Index";
         >
         It might come as a surprise, but I also write stories (horror + fairy tales),
         come up with game designs and have a blog.
-        <a>Browse my writings and posts</a>, or scroll down futher for a quick
-        peek. (TODO)
+        <a href="#blog">Browse my writings and posts</a>, or scroll down futher
+        for a quick peek. (TODO)
         <!-- Recipes -->
       </p>
       <p
@@ -104,7 +107,7 @@ const pageTitle = "Index";
     </div>
 
     <!-- Contact + Icons -->
-    <div class="flex flex-row gap-x-4 pb-4 pt-4">
+    <div class="flex flex-row gap-x-4 pb-4 pt-4" id="contact">
       <div class="bg-stone-800 grow sm:hidden"></div>
       <h3
         class="grow bg-stone-800 text-yellow-300 font-sans text-xl text-center w-0 m-0 hidden sm:block"
@@ -129,7 +132,7 @@ const pageTitle = "Index";
     <br />
 
     <!-- Latest blog posts -->
-    <div class="flex flex-col prose">
+    <div class="flex flex-col prose" id="blog">
       <p>
         <span class="font-semibold"
           >Also, you just found my latest writings!</span
