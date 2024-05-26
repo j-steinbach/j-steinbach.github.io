@@ -6,9 +6,33 @@ import ContentLayout from "../layouts/ContentLayout.astro";
 import ImageComponent from "../components/ImageComponent.astro";
 const { frontmatter } = Astro.props;
 
-const images = await Astro.glob("../assets/art/*.png");
+// const images = await Astro.glob("../assets/art/*.png");
+const images = await Astro.glob("../assets/art/*.png").then((files) => {
+  return files.map((file) => file.default);
+});
+// shuffle the images
+images.sort(() => Math.random() - 0.5);
 ---
 
 <ContentLayout pageTitle={"Art"}>
-  <p>TODO: Show all my iamges from /art here</p>
+  <div class="bg-amber-50">
+    <a
+      class="underline italic text-xl text-center m-2 prose"
+      href="https://www.instagram.com/altgans/"
+      >Why not follow me on Instagram? :)</a
+    >
+
+    <div class="p-1 columns-3 gap-1">
+      {
+        images.map(({ src /* width and height is also available */ }) => (
+          <img
+            class="object-contain h-full rounded-xl mb-1"
+            src={src}
+            alt=""
+            loading="lazy"
+          />
+        ))
+      }
+    </div>
+  </div>
 </ContentLayout>

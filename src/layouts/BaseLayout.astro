@@ -14,11 +14,7 @@ const { pageTitle } = Astro.props;
     <title>{pageTitle}</title>
   </head>
 
-  <body
-    class="container mx-auto max-w-prose h-screen bg-yellow-300 flex flex-col"
-  >
-    <!-- <h1 class="text-3xl font-['cinzel'] font-bold">{pageTitle}</h1> -->
+  <body class="container mx-auto max-w-prose h-screen bg-yellow-300">
     <slot />
-    <!-- <Footer /> -->
   </body>
 </html>
