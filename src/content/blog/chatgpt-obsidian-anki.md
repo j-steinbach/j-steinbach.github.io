@@ -9,7 +9,7 @@ public: true
 
 ## Goal/What I want
 
-Turn the most common French words as Anki cards. Ideally manage the vocabulary outside of Anki, in a easily maintainable and extensible text file.
+Turn the most common French words into Anki cards. Ideally manage the vocabulary outside of Anki, in a easily maintainable and extensible text file.
 
 ## The stupid approach
 
