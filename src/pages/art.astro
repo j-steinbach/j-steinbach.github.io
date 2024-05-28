@@ -25,14 +25,18 @@ images.sort(() => Math.random() - 0.5);
     <div class="p-1 columns-3 gap-1">
       {
         images.map(({ src /* width and height is also available */ }) => (
-          <img
-            class="object-contain h-full rounded-xl mb-1"
-            src={src}
-            alt=""
-            loading="lazy"
-          />
+          <>
+            <img
+              class="object-contain h-full rounded-xl mb-1"
+              src={src}
+              alt=""
+              loading="lazy"
+            />
+          </>
         ))
       }
     </div>
+
+    <p>TODO: Properly optimize this :)</p>
   </div>
 </ContentLayout>
