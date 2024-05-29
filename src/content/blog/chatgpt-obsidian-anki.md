@@ -37,12 +37,14 @@ counts as separate card. For this I use the `Basic (and reversed card)` template
 
 Now the elephant in the room: Do I really have to look up every single French word and add it to my list? The answer will surprise you (it won't). Nope! We can use ChatGPT to give us whatever vocabulary we want.
 
-> Give me the 100 most common French words with their German translation. Don't add bulletpoints or number the list. No duplicate entries.
-> Use the style french::german
+> Give me the 100 most common French words with their German translation. Include the articles and the IPA pronounciation. Don't add bulletpoints or number the list. No duplicate entries.
+> Use the style `maison, la [mɛ.zɔ̃]::Haus, das`
 
-And then just experiment a bit. `The next 100`, `the next 100`, and so forth. Just make sure the language doesn't switch. Or that there are duplicate entries. Or that asking for French dating vocabulary is against the TOS.. :) _(I hope it isn't :))_
+And then just experiment a bit. `The next 100`, `the next 100`, and so forth. Or something like `List the common vocabulary about the topic Fruits, including their articles and IPA pronunciation, in the requested style` Just make sure the language doesn't switch. Or that there are duplicate entries*.
 
-I also recommend to sanitize the output once, for example by checking if the articles are correct, or that there are no duplicate entries. Just copy/paste the text into some random free (!) online-tool that removes duplicates.
+*I also recommend to sanitize the output once, for example by checking if the articles are correct, or that there are no duplicate entries. Just copy/paste the text into some random free (!) online-tool that removes duplicates.
+
+Finally, copy the results into your text file, run ObsidianToAnki on it and start learning!
 
 
 ## Bonus: Better ChatGPT promts
