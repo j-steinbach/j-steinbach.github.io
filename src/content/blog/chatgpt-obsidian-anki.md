@@ -9,13 +9,13 @@ public: true
 
 ## Goal/What I want
 
-Turn the most common French words into Anki cards. Ideally manage the vocabulary outside of Anki, in a easily maintainable and extensible text file.
+Turn the most common French words into Anki* cards, including the [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) pronounciation. Ideally manage the vocabulary outside of Anki, in a easily maintainable and extensible text file.
+
+*In case you don't know it, [Anki](https://apps.ankiweb.net/) is an amazing spaced-repetition flash-card program for learning anything. It is free, there is an [Android app](https://apps.ankiweb.net/), and I recommend it 100%. 
 
 ## The stupid approach
 
-Search for _most common French words_, look up their translation (for me it is FR-DE), write both into Anki*. One by one. _No way!_
-
-*In case you don't know it, [Anki](https://apps.ankiweb.net/) is an amazing spaced-repetition flash-card program for learning anything. It is free, there is an [Android app](https://apps.ankiweb.net/), and I recommend it 100%. 
+Search for _most common French words_, look up their translation (for me it is FR-DE) and their IPA, write both into Anki. One by one. _No way!_
 
 
 ## Introduce Markdown
