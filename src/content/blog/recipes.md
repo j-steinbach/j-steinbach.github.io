@@ -31,6 +31,7 @@ ALT = Alternatively, often used as experiment :)
 
 What to bring
 
+```
 - Cooking oil
 - Garlic, Ginger, OPT Fennel seeds
 - Some paste; Thai-Curry, Sambal Olek, Harissa, Soy sauce...
@@ -39,9 +40,11 @@ What to bring
 - Water
 - Vegetable broth powder
 - Thick noodles (Hokkien, Udon, Ramen)
+```
 
 How to make
 
+```
 1. In a pot heat cooking oil and OPT fennel seeds and chilies
 2. Add some garlic and ginger for 2 min, until fragrant.
 3. Add Thai-Curry paste and Sambal Olek, some soy sauce (ALT you can also Harissa and Tahini or whatever. Stir and cook until more fragrant)
@@ -49,23 +52,28 @@ How to make
 6. OPT: Add a fried egg (apparently Chinese style)
 5. Add water, mix in vegetable soup powder, boil.
 7. Serve with noodles. ALT The noodles usually cook in 3 min, so I just add a chunk of them into my bowl, wait for them to get ready, then ravish them :)
+```
 
 Tip: Slice some small red chilies, watch them float menacingly in the oily soup!
 
 ## True Italian Pasta
 What to bring
 
+```
 - Canned pelled Italian tomates (+ small tomatoes)
 - Onion
 - Salt, Pepper
 - OPT: Basil
 - OPT: butter
 - Pasta noodles
+```
 
 How to make
 
+```
 1. Add tomatoes and onion (OPT: quartered) into pot, boil everything with open lid (!) for 30-60 min
 2. Season with salt, pepper to taste, (OPT) add fresh basil and butter 
 3. Cook pasta until almost al-dente, mix them into the pasta sauce, serve, garnish with more basil :)
+```
 
 All credits go to [Marcella Hazan](https://en.wikipedia.org/wiki/Marcella_Hazan); I recommend to go ahead and get a copy of "The Classic Italian Cook Book: The Art of Italian Cooking and the Italian Art of Eating (1973)".
