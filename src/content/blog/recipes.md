@@ -15,6 +15,17 @@ OPT = Optional, if you have it
 
 ALT = Alternatively, often used as experiment :)
 
+## General Advice
+
+- Get a rice cooker. Perfectly cooked rice, bulgur, noodles, ... every single day without wasting brain power? Hell yeah!
+- Don't be afraid to buy cheap random produce in the super market, then mix it into recipes over the next days
+- If you encounter a new vegetable, look up how the pros prepare (cut) it. This will save a lot of time
+  - Definitely do this for the vegetables you use the most often; onions, bell peppers, courgette
+- Courgette fits into any food :)
+- The five basic tastes are: sweet, sour, bitter, salty and [Umami](https://en.wikipedia.org/wiki/Umami). Ideally your food contains all of them
+- Buy the canned Italian ones that are whole but without skin. Best flavor, least work, also 50ct for 400g
+  - Mix with the small ones (Datterino, cherry). Half them where they connected to the strubbery, that is the easiest point to cut 
+
 
 ## Noudle Soup
 
