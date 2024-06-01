@@ -26,6 +26,10 @@ No introduction needed.
 #### 1997
 
 ##### Buena Vista Social Club — Buena Vista Social Club (CU)
+
+#### 2001
+
+Die Prinzen - D
 #### 2005
 ##### Eminem — Curtain Calls (US)
 ##### Seed — Next! (DE)
