@@ -2,7 +2,7 @@
 date: 2024-06-01
 aliases: [Rezepte, Kochen]
 tags: [music, albums]
-title: "Lazy student-food  | Faule Studentenküche"
+title: "Lazy Student Recipes  | Faule Studentenküche"
 public: true
 ---
 
