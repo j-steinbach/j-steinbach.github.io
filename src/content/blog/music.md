@@ -2,12 +2,14 @@
 date: 2024-05-23
 aliases: []
 tags: [music, albums]
-title: "Simply great music, artists and albums"
+title: "Music"
 public: true
 ---
 
-Lot's of (German) music :) I mainly list albums I can remember I listened to a lot, as naming every single song and artist I like would go beyond scope _fast_. 
+I kinda listen to everything (except _US charts_ and _German Volksmusik_), so I'll list some of my favourite albums instead. Criteria: I listen to the full album start-finish at least 10 times, and I like 90% of the songs on it.
 
+
+## Great albums
 
 #### 1970
 
@@ -85,10 +87,4 @@ One of Italiy's finest, discovered her during the San Remo festival and am a big
 
 Well, every single of their albums and songs is a masterpiece, but this one is my favourite.
 
-
-#### 2024
-
-##### Ikkimel — Hat sie nicht gesagt (DE)
-
-Trashy, authentic and fun. The true Berlin spirit.
 
