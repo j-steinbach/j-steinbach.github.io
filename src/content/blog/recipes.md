@@ -1,8 +1,8 @@
 ---
 date: 2024-06-01
 aliases: [Rezepte, Kochen]
-tags: [music, albums]
-title: "Lazy Student Recipes  | Faule Studentenküche"
+tags: [recipes, cooking]
+title: "Recipes | Faule Studentenküche"
 public: true
 ---
 
@@ -18,6 +18,7 @@ ALT = Alternatively, often used as experiment :)
 ## General Advice
 
 - Get a rice cooker. Perfectly cooked rice, bulgur, noodles, ... every single day without wasting brain power? Hell yeah!
+- If you live alone, cook two portions and eat the leftovers the next day
 - Don't be afraid to buy cheap random produce in the super market, then mix it into recipes over the next days
 - If you encounter a new vegetable, look up how the pros prepare (cut) it. This will save a lot of time
   - Definitely do this for the vegetables you use the most often; onions, bell peppers, courgette
@@ -44,7 +45,6 @@ What to bring
 
 How to make
 
-```
 1. In a pot heat cooking oil and OPT fennel seeds and chilies
 2. Add some garlic and ginger for 2 min, until fragrant.
 3. Add Thai-Curry paste and Sambal Olek, some soy sauce (ALT you can also Harissa and Tahini or whatever. Stir and cook until more fragrant)
@@ -52,7 +52,6 @@ How to make
 6. OPT: Add a fried egg (apparently Chinese style)
 5. Add water, mix in vegetable soup powder, boil.
 7. Serve with noodles. ALT The noodles usually cook in 3 min, so I just add a chunk of them into my bowl, wait for them to get ready, then ravish them :)
-```
 
 Tip: Slice some small red chilies, watch them float menacingly in the oily soup!
 
@@ -70,10 +69,37 @@ What to bring
 
 How to make
 
-```
 1. Add tomatoes and onion (OPT: quartered) into pot, boil everything with open lid (!) for 30-60 min
 2. Season with salt, pepper to taste, (OPT) add fresh basil and butter 
 3. Cook pasta until almost al-dente, mix them into the pasta sauce, serve, garnish with more basil :)
+
+All credits go to [Marcella Hazan](https://en.wikipedia.org/wiki/Marcella_Hazan); I recommend to go ahead and get a copy of `The Classic Italian Cook Book: The Art of Italian Cooking and the Italian Art of Eating (1973)`.
+
+
+## Jonas' Supreme Müsli Mix
+
+What to bring
+
+```
+- 2x 500g Oatmeal
+- 200g Walnuts, nuts
+- 100g seeds ('bird feed')
+- 100g dark chocoloate chips (preferably 70%+)
+- Whatever you like
 ```
 
-All credits go to [Marcella Hazan](https://en.wikipedia.org/wiki/Marcella_Hazan); I recommend to go ahead and get a copy of "The Classic Italian Cook Book: The Art of Italian Cooking and the Italian Art of Eating (1973)".
+How to make
+
+1. Crush the walnuts
+2. Layer everything in a big container (oat, walnuts, seeds, chocolate, oat, ...)
+3. Shake and mix the container
+
+How to eat :)
+
+1. Put Müsli into bowl
+2. OPT: top with Chia/seeds
+3. OPT: top Skyr/Joghurt 
+4. OPT: top with fresh fruit, dried fruits, frozen berries
+5. Add milk
+6. Enjoy
+
