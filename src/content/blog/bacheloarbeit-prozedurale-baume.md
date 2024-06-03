@@ -1,5 +1,5 @@
 ---
-date: 2024-06-01
+date: 2024-06-03
 aliases: []
 tags: [research, wimmelbild, gamedev, thesis, procedural-generation, trees]
 title: "Bachelor-Thesis Procedural Generation of 2D Trees"
@@ -7,7 +7,7 @@ public: true
 ---
 
 
-It is 2017, I am working as a working student at UDATA, and we are trying to make environment education "cool" again. So we came up with [Urnature](https://urnature.de/), a cute little education app that integrates with existing learning trails in nature reservations and enriches them with minigames, fact checks, …
+It is 2017, I am working as a working student at _UDATA_, and we are trying to make environment education "cool" again. So we came up with [Urnature](https://urnature.de/), a cute little education app that integrates with existing learning trails in nature reservations and enriches them with minigames, fact checks, …
 
 At that point in time I was really into procedural generation (labyrinth games!), so I took the opportunity of my upcoming Bachelor thesis to do something useful for a change — procedurally generate 2D trees for use in an Android app!
 
