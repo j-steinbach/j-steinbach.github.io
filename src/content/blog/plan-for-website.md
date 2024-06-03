@@ -2,8 +2,10 @@
 date: 2024-01-14
 title: "Plan for Website"
 tags: ["blog"]
-public: true
+public: false
 ---
+
+TODO
 
 ## Step-by-step
 

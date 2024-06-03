@@ -15,6 +15,8 @@ OPT = Optional, if you have it
 
 ALT = Alternatively, often used as experiment :)
 
+All dishes are 2 servings.
+
 ## General Advice
 
 - Get a rice cooker. Perfectly cooked rice, bulgur, noodles, ... every single day without wasting brain power? Hell yeah!
@@ -103,3 +105,28 @@ How to eat :)
 5. Add milk
 6. Enjoy
 
+## Indian Curry
+
+What to bring
+
+```
+- cooking oil
+- assortment of Indian seeds (cumin, kardamon, star anise, cloves, …)
+- choped red onions, garlic, OPT ginger
+- Indian spices (chili, cumin, koriander, kurkuma, 'curry powder')
+- 2 cans canned tomatoes, some cherry tomatoes
+- vegetables, meat
+```
+
+How to make
+
+1. Heat oil, add cumin seeds, kardamon, star anise, cloves, chili flakes, … until they 'pop' and you can smell their amazing smell
+2. Add chopped red onions, garlic, OPT ginger, brown them until it smells
+  - OPT add some water, so it doesn't burn
+3. Add spices (cumin, chili, koriander, kurkuma, 'curry mix', salt)
+4. Add tomatoes, cover with lid, heat for 10 min until oily
+5. You can now add your other vegetables, meat, tofu, …
+6. Cook, season
+6. Serve with rice or bulgur
+
+Based on this [video](https://www.youtube.com/watch?v=WwAeKdlPAc0).
