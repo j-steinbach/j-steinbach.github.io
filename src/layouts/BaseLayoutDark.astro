@@ -1,0 +1,20 @@
+---
+const { pageTitle } = Astro.props;
+// import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Astro description" />
+    <title>{pageTitle}</title>
+  </head>
+
+  <body class="container mx-auto max-w-prose h-screen bg-stone-800">
+    <slot />
+  </body>
+</html>

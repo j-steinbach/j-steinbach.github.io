@@ -6,6 +6,8 @@ title: "CV"
 public: false
 ---
 
+
+
 I am Jonas, was born 1993, am amazing, and you want to hire me? Great! Contact me!
 
 

@@ -1,0 +1,11 @@
+---
+import ContentLayout from "../layouts/ContentLayoutDark.astro";
+// 1. The frontmatter prop gives access to frontmatter and other data
+const { frontmatter } = Astro.props;
+---
+
+<ContentLayout pageTitle={"Professional"}>
+  <div class="flex-grow">
+    <h3>See my CV</h3>
+  </div>
+</ContentLayout>
