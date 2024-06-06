@@ -11,7 +11,7 @@ const images = await Astro.glob("../assets/art/*.png").then((files) => {
   return files.map((file) => file.default);
 });
 // shuffle the images
-images.sort(() => Math.random() - 0.5);
+// images.sort(() => Math.random() - 0.5);
 ---
 
 <ContentLayout pageTitle={"Art"}>
@@ -22,19 +22,1047 @@ images.sort(() => Math.random() - 0.5);
       >Why not follow me on Instagram? :)</a
     >
 
+    <!-- Kill me... thank god for vim :h v_g_CTRL_-A 
+    <!--TODO: figure out how to use map() or forEach() with Image elements -->
     <div class="p-1 columns-3 gap-1">
-      {
-        images.map(({ src /* width and height is also available */ }) => (
-          <>
-            <img
-              class="object-contain h-full rounded-xl mb-1"
-              src={src}
-              alt=""
-              loading="lazy"
-            />
-          </>
-        ))
-      }
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[1]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[2]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[3]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[4]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[5]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[6]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[7]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[8]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[9]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[10]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[11]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[12]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[13]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[14]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[15]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[16]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[17]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[18]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[19]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[20]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[21]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[22]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[23]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[24]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[25]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[26]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[27]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[28]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[29]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[30]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[31]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[32]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[33]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[34]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[35]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[36]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[37]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[38]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[39]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[40]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[41]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[42]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[43]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[44]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[45]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[46]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[47]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[48]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[49]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[50]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[51]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[52]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[53]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[54]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[55]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[56]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[57]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[58]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[59]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[60]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[61]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[62]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[63]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[64]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[65]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[66]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[67]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[68]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[69]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[70]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[71]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[72]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[73]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[74]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[75]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[76]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[77]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[78]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[79]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[80]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[81]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[82]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[83]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[84]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[85]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[86]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[87]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[88]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[89]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[90]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[91]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[92]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[93]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[94]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[95]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[96]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[97]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[98]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[99]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[100]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[101]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[102]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[103]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[104]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[105]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[106]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[107]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[108]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[109]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[110]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[111]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[112]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[113]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[114]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[115]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[116]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[117]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[118]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[119]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[120]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[121]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[122]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[123]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[124]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[125]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[126]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[127]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[128]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[129]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[130]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[131]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[132]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[133]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[134]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[135]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[136]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[137]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[138]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[139]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[140]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[141]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[142]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[143]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[144]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[145]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[146]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[147]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[148]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[149]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[150]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[151]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[152]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[153]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[154]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[155]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[156]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[157]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[158]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[159]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[160]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[161]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[162]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[163]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[164]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[165]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[166]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[167]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[168]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[169]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[170]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[171]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[172]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[173]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[174]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[175]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[176]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[177]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[178]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[179]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[180]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[181]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[182]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[183]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[184]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[185]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[186]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[187]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[188]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[189]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[190]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[191]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[192]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[193]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[194]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[195]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[196]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[197]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[198]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[199]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[200]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[201]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[202]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[203]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[204]}
+        alt=""
+      />
+      <Image
+        class="object-contain h-full rounded-xl mb-1"
+        src={images[205]}
+        alt=""
+      />
+
+      <!--   { -->
+      <!--     images.map(({ src /* width and height is also available */ }) => ( -->
+      <!--       <> -->
+      <!--         <img -->
+      <!--           class="object-contain h-full rounded-xl mb-1" -->
+      <!--           src={src} -->
+      <!--           alt="" -->
+      <!--           loading="lazy" -->
+      <!--         /> -->
+      <!--       </> -->
+      <!--     )) -->
+      <!--   } -->
     </div>
   </div>
 </ContentLayout>
